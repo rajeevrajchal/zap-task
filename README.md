@@ -5,10 +5,9 @@ None of these steps are mandatory, but try to complete as many as possible.
 ## Instructions
 
 1. Fork this repo
-2. Commit all changes you make. Please create a separate commit for each of the steps below.
-3. Push your work
-4. When you're done, create a pull request
-5. Add the link to your pull request in the job application
+2. Push your work
+3. When you're done, create a pull request
+4. Send us an email with the link to your pull request
 
 ## Code
 
@@ -23,20 +22,12 @@ None of these steps are mandatory, but try to complete as many as possible.
 3. add functionality to read in data from `users.csv` (`src/data/users.csv`) and convert it to json
 
 
-4. create user api endpoints in the `src/api` folder under the route `api/v1/users`
+4. create user api endpoints in the `src/api` folder under the route `api/v1/users` to interact with data read from the csv file in the previous step.
    - `GET` - `api/v1/users/<id>` - get user by id
    - `POST` `api/v1/users` - create a new user
-   - `DELETE` `api/v1/users/<id>` - deletes a user
 
 
-5. secure the `PUT`,`POST` and `DELETE` endpoints with a password
-
-6. write a test for one of the endpoints created so far
-
-7. using html/css/js create a `user-card` component like shown below
-![zaptic-logo](docs/user_card.jpg)
-
-1. *BONUS* create a new route `/user/<id>` which will show the user card created above populated with the user data. You should populate the `name`, `job description`, and `star` at the top right. When you click the `Contact` button, it should open your email program and create an email with `to` set to the user's `email` address and subject `Hello there!`.
+5. secure the `POST` endpoint with a password
 
 
 ## SQL
@@ -102,4 +93,3 @@ Provide screenshots of the db-fiddle page (make sure query and results are visib
 ```
 purchase id, product name, count, buyer email
 ```
-4. list the `full names` (first last) of people who have bought `chocolate muffins`, along with the number of muffins purchased (full name, no of muffins), in descending order of total muffins purchased across all purchases
