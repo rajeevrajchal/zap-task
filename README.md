@@ -24,9 +24,7 @@ None of these steps are mandatory, but try to complete as many as possible.
 
 
 4. create user api endpoints in the `src/api` folder under the route `api/v1/users`
-   - `GET` - `api/v1/users/list` - list all users in json format
    - `GET` - `api/v1/users/<id>` - get user by id
-   - `PUT` `api/v1/users/<id>` - change some data for user with given id
    - `POST` `api/v1/users` - create a new user
    - `DELETE` `api/v1/users/<id>` - deletes a user
 
@@ -38,7 +36,7 @@ None of these steps are mandatory, but try to complete as many as possible.
 7. using html/css/js create a `user-card` component like shown below
 ![zaptic-logo](docs/user_card.jpg)
 
-8. create a new route `/user/<id>` which will show the user card created above populated with the user data. You should populate the `name`, `job description`, and `star` at the top right. When you click the `Contact` button, it should open your email program and create an email with `to` set to the user's `email` address and subject `Hello there!`.
+1. *BONUS* create a new route `/user/<id>` which will show the user card created above populated with the user data. You should populate the `name`, `job description`, and `star` at the top right. When you click the `Contact` button, it should open your email program and create an email with `to` set to the user's `email` address and subject `Hello there!`.
 
 
 ## SQL
@@ -104,4 +102,4 @@ Provide screenshots of the db-fiddle page (make sure query and results are visib
 ```
 purchase id, product name, count, buyer email
 ```
-4. list in descending order the `full names` (first last) of people who have ordered the most `chocolate muffins` across all purchases, along with the number of muffins purchased (full name, no of muffins)
+4. list the `full names` (first last) of people who have bought `chocolate muffins`, along with the number of muffins purchased (full name, no of muffins), in descending order of total muffins purchased across all purchases
