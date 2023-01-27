@@ -4,10 +4,9 @@ None of these steps are mandatory, but try to complete as many as possible.
 
 ## Instructions
 
-1. Fork this repo
+1. Clone this repo
 2. Push your work
-3. When you're done, create a pull request
-4. Send us an email with the link to your pull request
+3. Send us an email with the link to your public repository
 
 ## Code
 
